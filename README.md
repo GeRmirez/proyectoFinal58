@@ -9,3 +9,5 @@ Enlaces a scripts: Estos enlaces vinculan archivos JavaScript externos que se ut
 Título de la página: El elemento <title> define el título de la página, que se muestra en la pestaña del navegador.
 
 Estructura del contenido: El resto del código HTML representa la estructura y contenido de la página web. Incluye encabezados (header), secciones (section), texto (h1, h2, h4, p), enlaces (a), imágenes (img), y el pie de página (footer). Estas secciones y elementos se utilizan para organizar y mostrar el contenido principal de la página, como información sobre el cantante Chano, su discografía y su próxima gira.
+  
+Los estilos de css (navbar y registros) se encuentran afuera de sus carpetas especificas, motivo: los fondos de ambos estilos de backgraund no se cargan al momento de realizar el "Deploy"
