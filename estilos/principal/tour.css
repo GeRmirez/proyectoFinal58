@@ -1,0 +1,105 @@
+/* Seccion Tour */
+
+#tour{
+    background: yellow;
+    padding: 60px 0;
+}
+
+#tour .contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+#tour img{
+    width: 100%;
+}
+
+#tour .texto{
+    width: 50%;
+}
+
+#tour p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 27px;
+}
+
+#tour .imagen{
+    width: 40%;
+    position: relative;
+    top: -110px;
+}
+
+#tour h4{
+    color: #212121;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #212121;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.fechas{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 60px;
+    border-bottom: 1px solid orange;
+    padding-bottom: 30px;
+}
+
+.fechas .numero{
+    font-size: 34px;
+}
+
+.fechas h5, .fechas p{
+    margin: 0;
+}
+
+.fechas h5{
+    font-size: 20px;
+}
+
+.fechas a{
+    background: whitesmoke;
+    color: #212121;
+    padding: 15px 30px;
+}
+
+.fechas a:hover{
+    background-color: rgb(75, 71, 71) !important;
+    transition: all 0.5s;
+    color: whitesmoke;
+}
+
+@media (max-width: 800px){
+
+    #tour .contenedor{
+        flex-direction: column;
+    }
+
+    #tour .imagen{
+        width: 65%;
+        position: relative;
+        top: -27px;
+    }
+
+    #tour .texto{
+        width: 100%;
+    }
+
+    .fechas{
+        flex-direction: column;
+    }
+
+    .fechas div{
+        margin-bottom: 10px;
+    }
+
+    .fechas a{
+        padding: 10px 10px;
+        
+    }
+}

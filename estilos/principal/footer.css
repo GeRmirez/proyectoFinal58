@@ -1,0 +1,26 @@
+/* Footer */
+
+footer{
+    text-align: center;
+    padding: 60px 0;
+}
+
+footer a{
+    background-color: #212121;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 10px;
+}
+
+footer a:hover{
+    background: orange;
+    color: #212121;
+    transition: all 0.5s;
+}
+
+footer p{
+    font-family: 'Roboto';
+}

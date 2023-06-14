@@ -1,0 +1,56 @@
+/* Seccion sobre nosotros */
+
+.contenedor-texto {
+    display: flex;
+}
+
+
+#about h4 {
+    color: #212121;
+    border: 3px solid orange;
+    text-align: center;
+    margin: 0;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#about p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.negro {
+    background-color: gray !important;
+}
+
+#about a:hover {
+    background-color: orange;
+    transition: all 0.5s;
+}
+
+.negro:hover {
+    background-color: rgb(75, 71, 71) !important;
+    transition: all 0.5s;
+    color: whitesmoke;
+}
+
+#about {
+    padding: 130px 0;
+}
+
+@media (max-width: 800px) {
+
+    .contenedor-texto {
+        flex-direction: column;
+    }
+
+    .botones a {
+        background: yellow;
+        color: #212121;
+        padding: 20px 40px;
+        line-height: 50px;
+        font-size: 13px;
+    }
+}

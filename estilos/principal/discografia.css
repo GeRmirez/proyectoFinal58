@@ -1,0 +1,82 @@
+/* Seccion discografia */
+#discografia {
+    background: #212121;
+    color: whitesmoke;
+    padding: 60px 0;
+}
+
+#discografia h4 {
+    margin: 0;
+    color: yellow;
+    border: 1px solid #ccc;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#discografia .contenedor {
+    display: flex;
+    align-items: center;
+}
+
+#discografia span {
+    color: yellow;
+    text-decoration: underline;
+}
+
+#discografia h2 {
+    font-size: 31px;
+}
+
+#discografia p {
+    font-size: 12px;
+    line-height: 27px;
+}
+
+#discografia a {
+    background: yellow;
+    color: #212121;
+    padding: 20px 40px;
+    line-height: 50px;
+}
+
+#discografia img {
+    width: 90%;
+}
+
+#discografia .texto {
+    width: 80%;
+}
+
+#discografia .foto {
+    width: 40%;
+}
+
+#discografia a:hover {
+    background-color: orange;
+    transition: all 0.5s;
+}
+
+@media (max-width: 800px) {
+    h2 {
+        font-size: 27px !important;
+    }
+
+    #discografia .contenedor {
+        flex-direction: column;
+    }
+
+    #discografia .foto {
+        width: 82%;
+        margin-top: 20px;
+    }
+
+    #discografia a{
+        background: yellow;
+        color: #212121;
+        padding: 20px 40px;
+        line-height: 50px;
+        font-size: 13px;
+    }
+
+}

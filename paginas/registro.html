@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Link a css-->
+    <link rel="stylesheet" href="/estilos/registro/registro.css" >
+
+    <!-- Scripts -->
+    <script src="../javascript/registro.js"></script>
+    <title>Registro | CHANO</title>
+
+
+
+</head>
+<body>
+
+    <!-- Formulario de Registro-->
+    <div class="contenedor">
+        <h1 class="titulo-form">Registro</h1>
+        <form id="registro-form">
+            <div class="info-user">
+                <div class="caja-input-user">
+                    <label for="nombreCompleto">Nombre Completo</label>
+                    <input type="text"
+                            id="nombreCompleto"
+                            name="nombreCompleto"
+                            placeholder="Ingrese su Nombre Completo"/>
+                </div>
+
+                <div class="caja-input-user">
+                    <label for="nombreUsuario">Nombre de Usuario</label>
+                    <input type="text"
+                            id="nombreUsuario"
+                            name="NombreUsuario"
+                            placeholder="Ingrese Nombre de Usuario"/>
+                </div>
+
+                <div class="caja-input-user">
+                    <label for="email">Email</label>
+                    <input type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Ingrese su Email"/>
+                </div>
+
+                <div class="caja-input-user">
+                    <label for="numeroTelefonico">Numero Telefonico</label>
+                    <input type="text"
+                            id="numeroTelefonico"
+                            name="numeroTelefonico"
+                            placeholder="Ingrese su Numero Telefonico"/>
+                </div>
+
+                <div class="caja-input-user">
+                    <label for="contrasela">Contraseña</label>
+                    <input type="password"
+                            id="contraseña"
+                            name="contraseña"
+                            placeholder="Ingrese su Contraseña"/>
+                </div>
+
+                <div class="caja-input-user">
+                    <label for="ConfiContraseña">Confirma Contraseña</label>
+                    <input type="password"
+                            id="ConfiContraseña"
+                            name="ConfiContraseña"
+                            placeholder="Confirme su Contraseña"/>
+                </div>
+            </div>
+            <div class="caja-genero">
+                <span class="titulo-genero">Genero</span>
+                <div class="categoria-genero">
+                    <input type="radio" name="Genero" id="hombre">
+                    <label for="hombre">Hombre</label>
+
+                    <input type="radio" name="Genero" id="mujer">
+                    <label for="mujer">Mujer</label>
+
+                    <input type="radio" name="Genero" id="otro">
+                    <label for="otro">Otro</label>
+
+                </div>
+            </div>
+            <div class="registro-btn">
+                <input type="submit" value="Registrate">
+            </div>
+            <div class="inicio-btn">
+                <a href="../index.html">Volver a Inicio</a>
+            </div>
+        </form>
+    </div>
+
+
+
+
+    
+</body>
+</html>
