@@ -10,7 +10,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: url(/imagenes/fondobigdos.jpg);
+    background: url(../imagenes/fondo-big-dos.jpg);
     background-size: cover;
 }
 

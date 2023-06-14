@@ -33,7 +33,7 @@
 }
 
 #informacion img {
-    width: 80%;
+    width: 40%;
 }
 
 #informacion .texto {
@@ -52,8 +52,8 @@
         flex-direction: column;
     }
 
-    #informacion .foto {
-        width: 82%;
+    #informacion img {
+        width: 81%;
         margin-top: 30px;
     }
 

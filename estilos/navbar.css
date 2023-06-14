@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url(/imagenes/fondobiguno.jpg);
+    background: url(../imagenes/fondo-big-uno.jpg);
     background-position: center;
     background-size: cover;
     height: 90vh;
